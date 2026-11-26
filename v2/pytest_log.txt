@@ -1,0 +1,9 @@
+........................................................................ [ 88%]
+.........                                                                [100%]
+-------- generated xml file: /content/stlab03_work/reports/v2/junit.xml --------
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.13.18-final-0 _______________
+
+Coverage JSON written to file reports/v2/coverage.json
+- Generated html report: file:///content/stlab03_work/reports/v2/pytest_report.html -
+81 passed in 0.33s

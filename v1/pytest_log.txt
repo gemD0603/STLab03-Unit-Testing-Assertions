@@ -1,0 +1,25 @@
+..................F.F.................................F..F.......F.....F [ 88%]
+.....F...                                                                [100%]
+=================================== FAILURES ===================================
+/content/stlab03_work/test_functions.py:45: assert 2 == 1
+/content/stlab03_work/test_functions.py:45: assert 3 == 2
+/content/stlab03_work/test_parking_lot.py:41: AssertionError: assert True is False
+/content/stlab03_work/test_parking_lot.py:50: Failed: DID NOT RAISE <class 'ValueError'>
+/content/stlab03_work/test_parking_lot.py:100: assert 2 == 1
+/content/stlab03_work/test_parking_lot.py:136: AssertionError: assert 7000 == 5000
+/content/stlab03_work/test_parking_lot.py:169: assert 5000 == 55000
+-------- generated xml file: /content/stlab03_work/reports/v1/junit.xml --------
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.13.18-final-0 _______________
+
+Coverage JSON written to file reports/v1/coverage.json
+- Generated html report: file:///content/stlab03_work/reports/v1/pytest_report.html -
+=========================== short test summary info ============================
+FAILED test_functions.py::TestReq02ParkedHours::test_edge_minutes_around_full_hours[60-1]
+FAILED test_functions.py::TestReq02ParkedHours::test_edge_minutes_around_full_hours[120-2]
+FAILED test_parking_lot.py::TestReq06CanEnter::test_edge_debt_around_100000[100000-False]
+FAILED test_parking_lot.py::TestReq06CanEnter::test_edge_check_in_with_debt_exactly_100000_raises_not_allowed
+FAILED test_parking_lot.py::TestReq09AlreadyInside::test_negative_rejected_check_in_keeps_occupied
+FAILED test_parking_lot.py::TestReq10CheckOut::test_edge_exactly_four_hours_motorbike_costs_5000
+FAILED test_parking_lot.py::TestReq12LostTicket::test_positive_lost_ticket_adds_50000_to_revenue
+7 failed, 74 passed in 0.25s
