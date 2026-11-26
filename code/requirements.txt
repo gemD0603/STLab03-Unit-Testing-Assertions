@@ -1,0 +1,6 @@
+pytest
+pytest-cov
+pytest-html
+openpyxl
+matplotlib
+pandas
